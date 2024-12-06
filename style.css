@@ -1,0 +1,19 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.game-container {
+    width: 606px;
+    background: black;
+    display: grid;
+    grid-template: repeat(3, 200px) / repeat(3, 200px);
+    gap: 2px;
+}
+
+.cell {
+    background-color: grey;
+    width: 100%;
+    height: 100%;
+}
